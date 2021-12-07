@@ -10,7 +10,6 @@
 
   <groupId>com.mfs.tnmmwi</groupId>
   <artifactId>mfs-tnmmwi-adopter</artifactId>
-  <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>mfs-tnmmwi-adopter</name>
 
