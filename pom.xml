@@ -12,6 +12,12 @@
   <artifactId>mfs-tnmmwi-adopter</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>mfs-tnmmwi-adopter</name>
+  <packaging>war</packaging>
+
+  <properties>
+      <java.version>1.8</java.version>
+      <start-class>com.mfs.tnmmwi.TnmMalawiApplication</start-class>
+  </properties>
 
   <dependencies>
       <dependency>
@@ -25,6 +31,22 @@
           <version>3.8.1</version>
           <scope>test</scope>
       </dependency>
+
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-tomcat</artifactId>
+          <scope>provided</scope>
+      </dependency>
   </dependencies>
+
+  <build>
+     <finalName>MFSTNMMWIWeb</finalName>
+     <plugins>
+         <plugin>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-maven-plugin</artifactId>
+         </plugin>
+     </plugins>
+  </build>
 
 </project>
