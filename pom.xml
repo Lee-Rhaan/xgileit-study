@@ -16,7 +16,6 @@
 
   <properties>
       <java.version>1.8</java.version>
-      <start-class>com.mfs.tnmmwi.TnmMalawiApplication</start-class>
   </properties>
 
   <dependencies>
@@ -30,12 +29,6 @@
           <artifactId>junit</artifactId>
           <version>3.8.1</version>
           <scope>test</scope>
-      </dependency>
-
-      <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-tomcat</artifactId>
-          <scope>provided</scope>
       </dependency>
   </dependencies>
 

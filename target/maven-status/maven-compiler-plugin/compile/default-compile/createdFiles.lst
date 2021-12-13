@@ -1,2 +1,3 @@
 com\mfs\tnmmwi\TnmMalawiApplication.class
 com\mfs\tnmmwi\HelloWorldController.class
+com\mfs\tnmmwi\service\HelloWorldService.class
