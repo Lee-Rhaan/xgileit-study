@@ -1,4 +1,5 @@
-com\mfs\tnmmwi\TnmMalawiApplication.class
-com\mfs\tnmmwi\persistence\HelloWorldRepository.class
-com\mfs\tnmmwi\HelloWorldController.class
-com\mfs\tnmmwi\service\HelloWorldService.class
+com\mfs\client\tnmmwi\persistence\CustomerRepository.class
+com\mfs\client\tnmmwi\persistence\model\Customer.class
+com\mfs\client\tnmmwi\service\CustomerService.class
+com\mfs\client\tnmmwi\CustomerController.class
+com\mfs\client\tnmmwi\TnmMalawiApplication.class
